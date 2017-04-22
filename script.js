@@ -1,14 +1,20 @@
-getTriangleArea(a, h);
-var a = 2;
-h = 3;
-console.log ('Nieprawidłowe dane');
-} else if (h <= 0) {
-console.log ('Nieprawidłowe dane');
-} else {
-console.log ('funkcja');
+function getTriangleArea(a, h) 
+{
+var a = 5;
+    b = 7;
+ if (a,h > 0) {
+   alert('Nieprawidłowe dane');
 }
-console.log( getTriangleArea(10,6);
-var triangleArea = getTriangleArea(10, 15);
-getTriangleArea()
+ else {
+	return a*h/2;
+}
+
+}
+
+getTriangleArea();
+
+console.log( getTriangleArea(10,6) );
+console.log( getTriangleArea(8,12) );
+console.log( getTriangleArea(4,16) );
 
 
